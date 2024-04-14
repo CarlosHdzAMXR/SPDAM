@@ -4,14 +4,14 @@ Styles
 
 /* Fonts */
 :root {
-  --body-font: 'Lato', sans-serif;
+  --body-font: 'Brush Script MT', sans-serif;
 }
 
 /* Bootstrap Override */
 body {
-  --bs-font-sans-serif: 'Lato', sans-serif;
+  --bs-font-sans-serif: 'Brush Script MT', sans-serif;
   --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 10rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 2;
   --bs-body-color: #41403E;
