@@ -4,12 +4,12 @@ Styles
 
 /* Fonts */
 :root {
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Lato', sans-serif;
 }
 
 /* Bootstrap Override */
 body {
-  --bs-font-sans-serif: 'Poppins', sans-serif;
+  --bs-font-sans-serif: 'Lato', sans-serif;
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
