@@ -1,23 +1,34 @@
-/*--------------------------------------------------------------
-Styles
---------------------------------------------------------------*/
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
 
-/* Fonts */
-:root {
-  --body-font: 'Brush Script MT', sans-serif;
-}
+<style>
+    :root {
+        --body-font: 'Lato', sans-serif;
+        --bs-font-sans-serif: 'Lato', sans-serif;
+        --bs-body-font-family: var(--bs-font-sans-serif);
+        --bs-body-font-size: 1rem;
+        --bs-body-font-weight: 400;
+        --bs-body-line-height: 2;
+        --bs-body-color: #41403E;
+        --bs-primary: #051d40;
+        --bs-primary-rgb: 5, 29, 64;
+        --bs-border-color: #eeeeee;
+    }
 
-/* Bootstrap Override */
-body {
-  --bs-font-sans-serif: 'Brush Script MT', sans-serif;
-  --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 10rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 2;
-  --bs-body-color: #41403E;
-  --bs-primary: #051d40;
-  --bs-primary-rgb: 5, 29, 64;
-  --bs-border-color: #eeeeee;
-  
-}
+    @page {
+        size: 8.5in 11in portrait;
+        margin: .3in;
+    }
 
+    @page:right {
+        margin-left: .5in;
+    }
+
+    @page:left {
+        margin-right: .5in;
+    }
+
+    body {
+        font-family: "Open Sans", var(--body-font); /* Utilizamos "Open Sans" como la primera opción y fallback a Lato y luego a sans-serif */
+        --bs-font-sans-serif: var(--body-font);
+    }
+</style>
